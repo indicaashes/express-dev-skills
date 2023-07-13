@@ -5,7 +5,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1><%= Ashley's skills %></h1>
+    <p>These are my skills <%= title %></p>
+    
+    <% skills.forEach(function(t) { %>
+      <li>
+        <a href="/skills/<%= t.id %>"><%= t.skill %></a>
+    
   </body>
 </html>
