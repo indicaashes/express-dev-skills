@@ -1,7 +1,7 @@
 const skills = [
     {id: 5829, skill: 'Built Twitter', done: true},
-    {id 6743, skill: 'Bit Coin Developement', done: false},
-    {id 8211:, skill: 'Guinuess World Record for Fastest Debugging', done: true}
+    {id: 6743, skill: 'Bit Coin Developement', done: false},
+    {id: 8211, skill: 'Guinuess World Record for Fastest Debugging', done: true}
     ];
 
     module.exports = {
